@@ -148,12 +148,23 @@ ls /$HOME/.local/share/eosio/nodeos/
 vim /$HOME/.local/share/eosio/nodeos/config/config.ini
 # 修改连接 P2P 节点为：p2p-peer-address = p2pnode.ccachain.info:9876
 ```
-
+参考打开参数：
+```sh
+http-server-address = 127.0.0.1:8888
+enable-stale-production = true
+producer-name = eosio
+plugin = eosio::producer_plugin
+plugin = eosio::chain_api_plugin
+plugin = eosio::http_plugin
+```
 启动节点进行区块数据同步：
 ```sh
 ./build/bin/nodeos
 ```
-
+或
+```sh
+nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin
+```
 将看到如下打印输出：
 ```sh
 info  2019-12-08T05:24:02.209 thread-0  chain_plugin.cpp:340          plugin_initialize    ] initializing chain plugin

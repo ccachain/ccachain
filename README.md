@@ -34,10 +34,10 @@ CCAChain 的一些功能包括：
 - 区块浏览器：https://ccachain.info
 - 文版通门户：https://www.wenbantong.com
 - EOSIO 开发者文档：
-  - https://developers.eos.io/welcome/latest/reference/nodeos-rpc-api-reference
   - https://developers.eos.io/manuals/eos/latest/install/index
   - https://developers.eos.io/manuals/eos/latest/cleos/index
   - https://developers.eos.io/manuals/eos/latest/keosd/index
+  - https://developers.eos.io/welcome/latest/reference/nodeos-rpc-api-reference
 
 # 编译安装
 

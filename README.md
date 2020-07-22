@@ -32,7 +32,7 @@ CCAChain 的一些功能包括：
 # 资源
 
 - 区块浏览器：https://ccachain.info
-- 文版通门户：https://www.wenbantong.com
+- 文版通门户：https://www.wenbantong.com.cn
 - EOSIO 开发者文档：
   - https://developers.eos.io/manuals/eos/latest/install/index
   - https://developers.eos.io/manuals/eos/latest/cleos/index

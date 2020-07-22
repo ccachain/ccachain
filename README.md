@@ -68,7 +68,6 @@ git submodule update --init --recursive
 > 如果你之前安装过 CCAChain，请执行 `./scripts/eosio_uninstall.sh`。
 
 编译：
-```sh
 cd ccachain
 ./scripts/eosio_build.sh
 ```

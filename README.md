@@ -63,7 +63,7 @@ git submodule update --init --recursive
 git clone https://gitee.com/shenzhen_wenbantong_ecommerce/ccachain --recursive
 # 如果 clone 时没有加 `--recursive`，则需更新子模块
 git submodule update --init --recursive
-备注：如果下载网速很慢可以使用码云的克隆仓库。
+备注：如果国内下载github代码网速很慢可以使用国内码云的克隆仓库。
 
 > 如果你之前安装过 CCAChain，请执行 `./scripts/eosio_uninstall.sh`。
 

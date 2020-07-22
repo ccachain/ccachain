@@ -51,12 +51,19 @@ CCAChain 基于 EOSIO 软件堆栈进行底层深度定制和优化，但与上�
   - 投票者分红激励
   - 编译流程优化
 
-克隆代码仓库：
+github克隆代码仓库（源码）：
 ```sh
 git clone https://github.com/ccachain/ccachain --recursive
 # 如果 clone 时没有加 `--recursive`，则需更新子模块
 git submodule update --init --recursive
 ```
+
+国内码云克隆代码仓库(推荐)：
+```sh
+git clone https://gitee.com/shenzhen_wenbantong_ecommerce/ccachain --recursive
+# 如果 clone 时没有加 `--recursive`，则需更新子模块
+git submodule update --init --recursive
+备注：如果下载网速很慢可以使用码云的克隆仓库。
 
 > 如果你之前安装过 CCAChain，请执行 `./scripts/eosio_uninstall.sh`。
 
